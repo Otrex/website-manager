@@ -1,0 +1,11 @@
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/_core_utils.php';
+
+require_files_by_dir(__DIR__ . '/core');
+require_files_by_dir(__DIR__ . '/traits');
+
+load_configuration(__DIR__ . '/../app.config.php');
+
+
